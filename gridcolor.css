@@ -1,0 +1,58 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 40em;
+    height: 35em;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+.container div {
+border: 1px solid blueviolet;
+border-radius: 1em;
+}
+span {
+    font-size: 12px;
+}
+.container div:nth-of-type(1){
+    background: rgb(111, 138, 232)
+}
+.container div:nth-of-type(2){
+ background: rgb(105,176 , 133)
+}
+.container div:nth-of-type(3){
+background: rgb(179,64,232)
+}
+.container div:nth-of-type(4){
+ background: rgb(176,136,68)
+}
+.container div:nth-child(5){
+    background: rgb(176, 170, 44)
+}
+.container div:nth-child(6){
+ background: rgb(89, 161, 232)
+}
+.container div:nth-child(7){
+background: rgb(122, 223,232)
+}
+.container div:nth-child(8){
+background: rgb(145,144,66)
+}
+.container div:nth-child(9){
+    background: rgb(199, 100, 50)
+}
+.container div:nth-child(10){
+    background: rgb(200, 150, 120)
+}
